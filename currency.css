@@ -17,7 +17,6 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-
 }
 
 .container{
@@ -66,12 +65,12 @@ form input{
         align-items: center;
         width: 2rem;
         border-radius: 0.5rem; 
-        background-color: rgb(154, 166, 170); 
+        background-color: rgb(20, 87, 109); 
     }
     
     .select-container{
         font-size: 1rem;
-        width: 15vh;
+        width: auto;
     }
 
     .msg{
