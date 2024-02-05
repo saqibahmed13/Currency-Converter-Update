@@ -55,11 +55,12 @@ let amtValue = amount.value;
 if(amtValue === " "  || amtValue < 1){
     amtValue = 1;
     amount.value = "1";
-
 }
 
 // the below url will return the exchange rate
-const URL  = `${BASE_URL}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;     // INR USD 
+
+const URL  = `${BASE_URL}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;  
+   // INR USD 
 // converting to lowercase (inr usd) because the url needs the values in lowercase
 let response = await fetch(URL);
 let data = await response.json();
