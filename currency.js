@@ -66,7 +66,7 @@ let data = await response.json(); // it will return the second promise (1st is f
 console.log("mera data",data); 
 console.log("miiii", result)
 let rate = data[toCurr.value.toLowerCase()];  // eg : data[inr] because we are getting in uppercase to access again we need to use lowercase
-let finalAmount = amtValue * rate;  // eg 1 (USD) * 80 (INR)
+let finalAmount = amtValue * rate ;  // eg 1 (USD) * 80 (INR)
                     
 msg.innerText = `${amtValue}${fromCurr.value} = ${finalAmount}${toCurr.value}`;  // eg 1USD = 80INR
 });
