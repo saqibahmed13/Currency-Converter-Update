@@ -1,0 +1,38 @@
+HTML:
+• What is the purpose of the doctype declaration?
+It specifies the version of HTML basically we are telling the browser which version of HTML we are using because
+different html versions has different rules and features and browser should know which set of rules to apply for rendering a doc
+
+• Explain the difference between <div> and <span>.
+
+        CSS:
+        • What is the box model in CSS?
+        • Describe the difference between margin and padding.
+
+        JavaScript Basics:
+        • Explain the concept of hoisting in JavaScript.
+        • What is the difference between let, const, and var?
+
+        JavaScript Functions:
+        • What is a closure in JavaScript?
+        • Explain the differences between arrow functions and regular functions.
+
+        DOM Manipulation:
+        • How does event delegation work in the DOM?
+        • Explain the purpose of the data- attributes.
+
+        Responsive Design:
+        • What is the importance of media queries in responsive design?
+        • Describe the difference between em and rem units in CSS.
+
+        CSS Flexbox:
+        • What is the flexbox model, and how does it work?
+        • Explain the purpose of justify-content and align-items in flexbox.
+
+        CSS Grid:
+        • How does CSS Grid differ from Flexbox?
+        • Explain the use of the grid-template-columns property.
+
+        AJAX:
+        • What is AJAX, and how does it work?
+        • Explain the role of the XMLHttpRequest object.
