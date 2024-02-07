@@ -4,6 +4,9 @@ It specifies the version of HTML basically we are telling the browser which vers
 different html versions has different rules and features and browser should know which set of rules to apply for rendering a doc
 
 • Explain the difference between <div> and <span>.
+        
+        <div> is a block-level element used for grouping and structuring larger sections of content.
+        <span> is an inline-level element used for applying styles or manipulating small portions of text within a larger block of content.
 
         CSS:
         • What is the box model in CSS?
