@@ -60,7 +60,7 @@ if(amtValue === " "  || amtValue < 1){
 const URL  = `${BASE_URL}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;  
    // INR USD 
 // converting to lowercase (inr usd) because the url needs the values in lowercase
-let response = await fetch(URL); 
+let response = await fetch(URL) ; 
 console.log("mera response", response); // this will give the response in console browser
 let data = await response.json(); // it will return the second promise (1st is fetch) in js objects method
 console.log("mera data",data); 
